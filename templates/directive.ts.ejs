@@ -1,0 +1,14 @@
+///<reference path="../../refs.d.ts"/>
+
+module <%- appName %>.directives {
+  export var <%- directiveName %>: angular.IDirectiveFactory = function () {
+    return {
+      template: '<div></div>',
+      restrict: 'E',
+      link: function postLink(scope, element, attrs) {
+        element.text('this is the <%- directiveName %> directive');
+      }
+    };
+  }
+}
+

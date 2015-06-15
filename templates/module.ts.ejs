@@ -1,0 +1,9 @@
+///<reference path="refs.d.ts" />
+///<reference path="<%- mainRefsPath %>" />
+
+module <%- moduleName %> {
+  angular.module(name, [<%- moduleDeps %>])
+    ///ng-ts:module-inject///
+  ;
+}
+

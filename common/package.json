@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "dev-server": "cd app && ../node_modules/.bin/http-server"
+  },
+  "devDependencies": {
+    "http-server": "~0.8.0",
+    "typescript": "latest",
+    "tsd": "latest"
+  }
+}

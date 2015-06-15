@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>iCentral Query to CSV</title></head>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
+<script src="scripts/app.js"></script>
+<body>
+  <form method="post" action="/query_to_csv/" enctype="multipart/form-data">
+    <textarea style="width: 100%; height: 150px;" name="query" autofocus></textarea><br>
+    <input type='hidden' name='csrfmiddlewaretoken' value='WY4E6h2LEDluqBUUnEVZlm44RgBIuGXa' />
+    <input type="submit" value="Submit">
+    CSV output?
+    <input type="checkbox" name="csv_output" value="1" />
+  </form>
+  <br/><br/>
+  <!--<script src="bower_components/angular/angular.js"></script>-->
+  <!--<script src="bower_components/angular-animate/angular-animate.js"></script>-->
+  <!--<script src="bower_components/angular-aria/angular-aria.js"></script>-->
+  <!--<script src="bower_components/angular-material/angular-material.js"></script>-->
+  <!--<script src="scripts/app.js"></script>-->
+</body>
+</html>

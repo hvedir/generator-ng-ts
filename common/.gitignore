@@ -1,0 +1,6 @@
+dist
+node_modules
+.idea
+*.iml
+typings
+app/bower_components

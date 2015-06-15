@@ -1,0 +1,18 @@
+{
+  "name": "generator-ng-ts",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "app"
+  ],
+  "author": "Fedir Mykhaylets",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "preferGlobal": true,
+  "private": true,
+  "dependencies": {
+    "yeoman-environment": "^1.2.5",
+    "yeoman-generator": "^0.20.1"
+  }
+}
