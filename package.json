@@ -1,18 +1,27 @@
 {
   "name": "generator-ng-ts",
   "version": "0.0.1",
-  "description": "",
+  "description": "Yeoman generator for angular 1.x app written in typescript",
   "files": [
-    "app"
+    "common",
+    "templates",
+    "lib",
+    "generators"
   ],
+  "keywords": [
+    "yeoman-generator",
+    "typescript",
+    "angular"
+  ],
+  "main": "generators/app/index.js",
   "author": "Fedir Mykhaylets",
+  "repository": "hvedir/generator-ng-ts",
   "keywords": [
     "yeoman-generator"
   ],
+  "license": "MIT",
   "preferGlobal": true,
-  "private": true,
   "dependencies": {
-    "yeoman-environment": "^1.2.5",
     "yeoman-generator": "^0.20.1"
   }
 }
